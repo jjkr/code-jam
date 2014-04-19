@@ -23,9 +23,14 @@
 
 using namespace std;
 
+void test_case(int case_num) {
+    cout << endl;
+}
+
 int main() {
     rint(num_cases);
     range(i, num_cases) {
         cout << "Case #" << i+1 << ": ";
+        test_case(i);
     }
 }

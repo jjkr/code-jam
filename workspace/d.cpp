@@ -19,18 +19,13 @@
 
 #define range(i, N) for(int i=0; i<N; ++i)
 #define rint(n) int n; cin >> n
-#define rstr(s) string s; cin >> s
+#define rstr(n) string s; cin >> n
 
 using namespace std;
-
-void test_case(int case_num) {
-    cout << endl;
-}
 
 int main() {
     rint(num_cases);
     range(i, num_cases) {
         cout << "Case #" << i+1 << ": ";
-        test_case(i);
     }
 }

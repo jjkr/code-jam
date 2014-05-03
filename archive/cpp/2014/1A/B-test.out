@@ -1,0 +1,22 @@
+Case #1: root 1 child 2
+root 1 child 3
+root 2 child 1
+root 3 child 1
+Case #2: root 1 child 2
+root 1 child 3
+root 2 child 1
+root 2 child 4
+root 3 child 1
+root 3 child 7
+root 4 child 2
+root 4 child 5
+root 4 child 6
+root 5 child 4
+root 6 child 4
+root 7 child 3
+Case #3: root 1 child 2
+root 2 child 1
+root 2 child 3
+root 3 child 2
+root 3 child 4
+root 4 child 3

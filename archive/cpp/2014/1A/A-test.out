@@ -1,0 +1,24 @@
+Case #1: N 3
+r outlet 01
+r outlet 11
+r outlet 10
+dd 11
+del 11
+dd 00
+dd 10
+del 10
+
+Case #2: N 2
+r outlet 101
+r outlet 111
+dd 010
+dd 001
+
+Case #3: N 2
+r outlet 01
+r outlet 10
+dd 10
+del 10
+dd 01
+del 01
+

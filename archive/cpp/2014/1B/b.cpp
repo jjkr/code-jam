@@ -24,7 +24,21 @@
 using namespace std;
 
 void test_case(int case_num) {
-    cout << endl;
+    rint(A);
+    rint(B);
+    rint(K);
+    if(A>B) swap(A,B);
+    int count = 0;
+    range(i, A) {
+        if(i<K) {
+            count += B;
+            continue;
+        }
+        range(j, B) {
+            if((j&i)<K) ++count;
+        }
+    }
+    cout << count << endl;
 }
 
 int main() {

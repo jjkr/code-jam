@@ -24,6 +24,11 @@
 using namespace std;
 
 void test_case(int case_num) {
+    // TEST START
+
+    int a, b, c;
+    int x, y, z;
+
     cout << endl;
 }
 

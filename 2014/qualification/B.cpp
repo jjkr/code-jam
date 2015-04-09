@@ -21,7 +21,8 @@ using namespace std;
 
 namespace
 {
-template <typename T>
+
+template<typename T>
 auto read()
 {
     T i;
@@ -30,13 +31,35 @@ auto read()
 }
 auto ri() { return read<int>(); };
 auto rd() { return read<double>(); };
-auto rs() { return read<string>(); };
 
 void test_case(int case_num)
 {
+    auto c = rd();
+    auto f = rd();
+    auto x = rd();
 
+    auto rate = 2.0;
+    auto time = 0.0;
 
+    if (c > x)
+    {
+        cout << fixed << setprecision(7) << x/rate;
+        return;
+    }
 
+    while (true)
+    {
+        auto nextHouseTime = c/rate;
+        auto nextRate = rate + f;
+        auto finTime = x/rate;
+        if (finTime < nextHouseTime + x/nextRate)
+        {
+            cout << fixed << setprecision(7) << time + finTime;
+            return;
+        }
+        rate = nextRate;
+        time += nextHouseTime;
+    }
 }
 }
 
@@ -46,7 +69,7 @@ int main()
     cout << fixed << setprecision(7);
     for (auto i = 0; i < num_cases; ++i)
     {
-        cout << "Case #" << i + 1 << ": ";
+        cout << "Case #" << i+1 << ": ";
         test_case(i);
         cout << endl;
     }

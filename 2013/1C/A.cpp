@@ -34,9 +34,16 @@ auto rs() { return read<string>(); };
 
 void test_case(int case_num)
 {
+    auto name = rs();
+    auto n = ri();
 
-
-
+    auto total = 0;
+    auto r = 0;
+    auto c = 0;
+    for (auto i = 0; i < name.length(); ++i)
+    {
+    }
+    cout << total;
 }
 }
 

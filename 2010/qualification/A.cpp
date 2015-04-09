@@ -10,6 +10,7 @@
 #include <set>
 #include <sstream>
 #include <stack>
+#include <unordered_map>
 #include <utility>
 #include <vector>
 #include <cstdio>
@@ -28,15 +29,25 @@ auto read()
     cin >> i;
     return i;
 }
+auto rl() { return read<long long>(); };
 auto ri() { return read<int>(); };
 auto rd() { return read<double>(); };
 auto rs() { return read<string>(); };
 
 void test_case(int case_num)
 {
+    auto n = rl();
+    auto k = rl();
 
+    if (k == 0)
+    {
+        cout << "OFF";
+        return;
+    }
 
-
+    auto m = (1ll << n);
+    auto mod = k % m;
+    cout << (mod == m - 1 ? "ON" : "OFF");
 }
 }
 

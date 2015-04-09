@@ -7,7 +7,9 @@ TEST_NAME=$1
 #echo $TEST_NAME
 #echo "clang++-3.5 -std=c++14 -O3 -o ${TEST_NAME} ${TEST_NAME}.cpp"
 
-clang++-3.5 -std=c++14 -O3 -o ${TEST_NAME} ${TEST_NAME}.cpp
+if ! clang++-3.5 -std=c++14 -O3 -o ${TEST_NAME} ${TEST_NAME}.cpp; then
+    exit 1
+fi
 
 IN_FILES=$(ls ${TEST_NAME}-*.in 2> /dev/null)
 for f in ${IN_FILES}

@@ -1,0 +1,126 @@
+Case #1: tribe attack 0 west 0 east 2 strength 10 day 0 t.n 3
+ success!
+tribe attack 1 west 3 east 5 strength 8 day 2 t.n 3
+ success!
+tribe attack 2 west 6 east 8 strength 6 day 4 t.n 3
+ success!
+tribe attack 3 west 9 east 11 strength 4 day 6 t.n 3
+ success!
+DELETE size 2
+DELETE size 1
+tribe attack 2 west 6 east 7 strength 8 day 10 t.n 3
+tribe attack 3 west 8 east 9 strength 8 day 17 t.n 3
+DELETE size 1
+DELETE size 0
+
+Case #2: tribe attack 0 west 0 east 1 strength 7 day 0 t.n 3
+ success!
+tribe attack 1 west 8 east 13 strength 10 day 1 t.n 2
+ success!
+tribe attack 1 west 2 east 3 strength 9 day 1 t.n 3
+ success!
+tribe attack 2 west 4 east 5 strength 11 day 2 t.n 3
+ success!
+tribe attack 6 west 24 east 29 strength 1 day 3 t.n 3
+ success!
+tribe attack 2 west 16 east 21 strength 10 day 3 t.n 2
+ success!
+tribe attack 3 west 6 east 7 strength 13 day 3 t.n 3
+ success!
+DELETE size 3
+DELETE size 2
+DELETE size 2
+DELETE size 1
+tribe attack 7 west 28 east 33 strength 1 day 4 t.n 3
+ success!
+tribe attack 8 west 32 east 37 strength 1 day 5 t.n 3
+ success!
+tribe attack 9 west 36 east 41 strength 1 day 6 t.n 3
+ success!
+tribe attack 10 west 40 east 45 strength 1 day 7 t.n 3
+ success!
+tribe attack 11 west 44 east 49 strength 1 day 8 t.n 3
+ success!
+tribe attack 12 west 48 east 53 strength 1 day 9 t.n 3
+ success!
+tribe attack 13 west 52 east 57 strength 1 day 10 t.n 3
+ success!
+tribe attack 14 west 56 east 61 strength 1 day 11 t.n 3
+ success!
+tribe attack 15 west 60 east 65 strength 1 day 12 t.n 3
+ success!
+tribe attack 16 west 64 east 69 strength 1 day 13 t.n 3
+ success!
+tribe attack 17 west 68 east 73 strength 1 day 14 t.n 3
+ success!
+tribe attack 18 west 72 east 77 strength 1 day 15 t.n 3
+ success!
+tribe attack 19 west 76 east 81 strength 1 day 16 t.n 3
+ success!
+tribe attack 20 west 80 east 85 strength 1 day 17 t.n 3
+ success!
+tribe attack 21 west 84 east 89 strength 1 day 18 t.n 3
+ success!
+tribe attack 22 west 88 east 93 strength 1 day 19 t.n 3
+ success!
+tribe attack 23 west 92 east 97 strength 1 day 20 t.n 3
+ success!
+tribe attack 24 west 96 east 101 strength 1 day 21 t.n 3
+ success!
+tribe attack 25 west 100 east 105 strength 1 day 22 t.n 3
+ success!
+tribe attack 26 west 104 east 109 strength 1 day 23 t.n 3
+ success!
+tribe attack 27 west 108 east 113 strength 1 day 24 t.n 3
+ success!
+tribe attack 28 west 112 east 117 strength 1 day 25 t.n 3
+ success!
+tribe attack 29 west 116 east 121 strength 1 day 26 t.n 3
+ success!
+tribe attack 30 west 120 east 125 strength 1 day 27 t.n 3
+ success!
+tribe attack 31 west 124 east 129 strength 1 day 28 t.n 3
+ success!
+tribe attack 32 west 128 east 133 strength 1 day 29 t.n 3
+ success!
+tribe attack 33 west 132 east 137 strength 1 day 30 t.n 3
+ success!
+tribe attack 34 west 136 east 141 strength 1 day 31 t.n 3
+ success!
+tribe attack 35 west 140 east 145 strength 1 day 32 t.n 3
+ success!
+tribe attack 36 west 144 east 149 strength 1 day 33 t.n 3
+ success!
+tribe attack 37 west 148 east 153 strength 1 day 34 t.n 3
+ success!
+tribe attack 38 west 152 east 157 strength 1 day 35 t.n 3
+ success!
+tribe attack 39 west 156 east 161 strength 1 day 36 t.n 3
+ success!
+tribe attack 40 west 160 east 165 strength 1 day 37 t.n 3
+ success!
+tribe attack 41 west 164 east 169 strength 1 day 38 t.n 3
+ success!
+tribe attack 42 west 168 east 173 strength 1 day 39 t.n 3
+ success!
+tribe attack 43 west 172 east 177 strength 1 day 40 t.n 3
+ success!
+tribe attack 44 west 176 east 181 strength 1 day 41 t.n 3
+ success!
+tribe attack 45 west 180 east 185 strength 1 day 42 t.n 3
+ success!
+tribe attack 46 west 184 east 189 strength 1 day 43 t.n 3
+ success!
+tribe attack 47 west 188 east 193 strength 1 day 44 t.n 3
+ success!
+tribe attack 48 west 192 east 197 strength 1 day 45 t.n 3
+ success!
+tribe attack 49 west 196 east 201 strength 1 day 46 t.n 3
+ success!
+tribe attack 50 west 200 east 205 strength 1 day 47 t.n 3
+ success!
+tribe attack 51 west 204 east 209 strength 1 day 48 t.n 3
+ success!
+tribe attack 52 west 208 east 213 strength 1 day 49 t.n 3
+ success!
+

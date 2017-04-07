@@ -7,7 +7,7 @@ TEST_NAME=$1
 #echo $TEST_NAME
 #echo "clang++-3.5 -std=c++14 -O3 -o ${TEST_NAME} ${TEST_NAME}.cpp"
 
-if ! clang++-3.5 -std=c++14 -O3 -o ${TEST_NAME} ${TEST_NAME}.cpp; then
+if ! clang++ -std=c++14 -O3 -o ${TEST_NAME} ${TEST_NAME}.cpp; then
     exit 1
 fi
 
